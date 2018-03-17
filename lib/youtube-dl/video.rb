@@ -78,7 +78,10 @@ module YoutubeDL
       {
         color: false,
         progress: false,
-        print_json: true
+        print_json: true,
+        extract_audio: true,
+        audio_format: 'mp3',
+        audio_quality: 0
       }
     end
 
